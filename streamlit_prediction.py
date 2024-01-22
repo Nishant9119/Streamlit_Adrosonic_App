@@ -6,10 +6,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score,precision_score, recall_score, f1_score, confusion_matrix
+<<<<<<< HEAD
 import pickle
+=======
+>>>>>>> 4490421 (git commit)
 import pickle
 def get_file():
-    with open("C:/Users/Nikhil Sharma/PycharmProjects/StreamLit_App/Nishant_Pycharm_Pickel.pkl","rb") as file:
+    with open("/workspaces/Streamlit_Adrosonic_App/Nishant_Pycharm_Pickel.pkl","rb") as file:
         data = pickle.load(file)
     return data
 data= get_file()
