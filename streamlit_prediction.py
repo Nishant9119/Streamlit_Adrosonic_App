@@ -1,20 +1,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score,precision_score, recall_score, f1_score, confusion_matrix
-import xgboost as xgb
-import tensorflow as tf
-from tensorflow import keras
-from keras import layers
-from sklearn.svm import SVC
 import pickle
-from sklearn.cluster import KMeans
 import pickle
 def get_file():
     with open("C:/Users/Nikhil Sharma/PycharmProjects/StreamLit_App/Nishant_Pycharm_Pickel.pkl","rb") as file:
