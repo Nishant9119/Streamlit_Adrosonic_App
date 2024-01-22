@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 from StreamLitDash import dash
 from streamlit_home import func
 from streamlit_prediction import predict

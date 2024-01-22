@@ -2,7 +2,6 @@ import streamlit as st
 from StreamLitDash import dash
 from streamlit_prediction import predict
 def func():
-    st.image('C:/Users/Nikhil Sharma/Desktop/OIP.jpeg',caption="BIT Mesra",output_format="auto")
     st.title("Welcome to CarSure")
     st.markdown("# A Claim Analytics App!")
     st.write(
